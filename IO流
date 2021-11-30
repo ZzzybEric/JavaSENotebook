@@ -12,3 +12,5 @@ File类声明在java.io包下
 抽象基类  字节流       字符流
 输入流：InputStream   Reader
 输出流：OutputStream  Writer
+
+Java的IO流共涉及40多个类，实际上非常规则，都是从以上的4个抽象基类派生出来的
