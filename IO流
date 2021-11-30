@@ -13,4 +13,13 @@ File类声明在java.io包下
 输入流：InputStream   Reader
 输出流：OutputStream  Writer
 
+节点流(文件流)：FileInputStream、FileOutputStream、FileReader、FileWriter
+缓冲流(处理流的一种)：BufferedInputStream、BufferedOutputStream、BufferedReader、BufferedWriter 
 Java的IO流共涉及40多个类，实际上非常规则，都是从以上的4个抽象基类派生出来的
+
+字符流不能处理图片数据，需要使用字节流
+对于文本文件，使用字符流处理，
+对于非文本文件，使用字节流
+
+缓冲流的使用
+作用：提供流的读取写入速度的提升 
